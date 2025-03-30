@@ -43,10 +43,7 @@ This project aims to develop models that can extract and generate information fr
 
 2. **Training:**
    - Choose your model type via the `MODEL_TYPE` variable (`bert` or `t5`).
-   - Run the pipeline with:
-     ```bash
-     python your_script.py
-     ```
+
    - The pipeline trains the model, evaluates it, logs results to W&B, and saves a model card along with model artifacts.
 
 3. **Inference:**
@@ -62,10 +59,7 @@ This project aims to develop models that can extract and generate information fr
    - Two models are available:
      - **CNN-LSTM:** Uses EfficientNetB0 for image features combined with LSTM for text decoding.
      - **CNN-Transformer:** Uses ResNet50V2 and a simplified Transformer-based approach.
-   - Run the training script:
-     ```bash
-     python your_image_script.py
-     ```
+
    - The training function splits validation data for testing and plots training history.
 
 3. **Caption Generation:**
