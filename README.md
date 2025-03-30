@@ -7,7 +7,8 @@ This repository contains two main pipelines: one for text-based space biology in
 ## Overview
 
 This project aims to develop models that can extract and generate information from space biology data:
-
+- **Dataset Used:**
+   Given in the problem statement file. 
 - **Text Pipeline:**  
   - Uses **BERT** (e.g., BioBERT) or **T5** (SciFive) to extract details from biomedical texts related to space biology.
   - Includes dataset catalog creation, preprocessing, model training, inference, and evaluation.
@@ -81,4 +82,9 @@ This project aims to develop models that can extract and generate information fr
 
 - **Experiment Tracking:**  
   W&B is used to track experiment metrics. Make sure to set up your W&B account if you wish to log experiments.
+
+
+## To be done
+
+Refine preprocesing, construct a final dataset with all resroues for better navigability and improve model performances for both the tasks.
 
